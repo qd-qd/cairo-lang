@@ -1,7 +1,5 @@
 # this workflow only run when someone comment "@ci" in the PR
 on:
-  pull_request:
-    types: [opened]
   issue_comment:
     types: [created]
 
